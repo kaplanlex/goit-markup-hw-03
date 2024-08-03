@@ -185,10 +185,10 @@ margin-right: 76px;
 .button:focus {
     background-color: #404BBF;
 }
-.section-two .visually-hidden {
-    padding: 120px 0;
-}
 
+.visually-hidden{
+    overflow: hidden;
+}
 
 .advantages,
 .navigator,
@@ -227,7 +227,9 @@ margin-right: 76px;
     color: #2e2f42;
     display: none;
 }
-
+.section-two{
+    padding: 120px 0;
+}
 .zag-z{
     font-weight: 500;
     font-size: 20px;

@@ -188,6 +188,7 @@ margin-right: 76px;
 
 .visually-hidden{
     overflow: hidden;
+    display: none;
 }
 
 .advantages,

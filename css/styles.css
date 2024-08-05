@@ -78,14 +78,12 @@ ul, ol {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
     line-height: 1.17;
-    margin-right:76px ;
-    margin-left: 156px;
 padding: 24px 0;
 margin-right: 76px;
 }
@@ -187,18 +185,18 @@ margin-right: 76px;
 }
 
 
-    .visually-hidden {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
-      }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    }
 
 
 .advantages,
@@ -212,13 +210,11 @@ margin-right: 76px;
 
 .advantages{
     
- margin: 0 auto;
+
     display: flex;
-    align-items: center;
+   
     gap: 24px;
-    justify-content: center;
-    margin-top: 120px;
-    margin-bottom:120px; 
+   
 }
 .p-adv{
     display: block;
@@ -320,8 +316,8 @@ margin-right: 76px;
 
 }
 .portfolio{
-    margin: 120px auto;
-    padding-top: 120px; padding-bottom: 120px;
+    padding-top: 120px; 
+    padding-bottom: 120px;
 }
 .our-team > h2,
 .portfolio > h2 {
@@ -365,6 +361,7 @@ margin-bottom: 8px;
     color: #2e2f42;
 }
 
+
 .our-team > p,
 .portfolio > p {
     font-weight: 400;
@@ -382,6 +379,7 @@ margin-bottom: 8px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
 }
 
 .footer{
@@ -389,8 +387,18 @@ margin-bottom: 8px;
     padding: 100px 0;
 }
 .logo-f{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+    line-height: 1.17;
     display: inline-block;
     margin-bottom: 16px;
+    
 }
 .stud{
     color: #f4f4fd;
